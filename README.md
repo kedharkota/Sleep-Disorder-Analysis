@@ -4,11 +4,26 @@ Memory-aware polysomnography processing with an autoencoder and U-Net/LSTM class
 
 **Python · PyTorch · MNE · NumPy · scikit-learn**
 
+[![Documentation checks](https://github.com/kedharkota/Sleep-Disorder-Analysis/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/kedharkota/Sleep-Disorder-Analysis/actions/workflows/docs.yml)
+
 [Overview](#overview) · [Getting started](#getting-started) · [Repository guide](#repository-guide) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
-![Sleep Stage Classification: project preview](docs/assets/overview.svg)
+<p align="center">
+  <img src="docs/assets/overview.svg" alt="Sleep Stage Classification: project preview" width="900" />
+</p>
+
+[Open full-size visual](docs/assets/overview.svg)
 
 *Explanatory workflow diagram based on the committed project materials.*
+
+## Project at a glance
+
+| Detail | Project information |
+| --- | --- |
+| **Focus** | Five-class sleep-stage classification from biosignals |
+| **Start here** | [main_memory_efficient.py](main_memory_efficient.py) |
+| **Run mode** | Python training pipeline; external paired EDF and hypnogram data |
+| **Explore** | Preprocessed epochs, learned features, checkpoints, and evaluation code |
 
 ## Overview
 
@@ -61,6 +76,9 @@ The source computes metrics and writes a confusion matrix, but no completed eval
 
 ## Documentation maintenance
 
+<details>
+<summary>Run documentation checks and maintain visuals</summary>
+
 Local documentation links and image headers are checked on pull requests and relevant pushes by the [documentation workflow](.github/workflows/docs.yml). Run the same check locally:
 
 ```bash
@@ -68,6 +86,13 @@ python tools/check_docs.py
 ```
 
 See the [reproducibility guide](docs/REPRODUCIBILITY.md) for evidence, missing artifacts, and visual-source notes. The check validates documentation files; it does not train models or certify application behavior.
+
+</details>
+
+## Explore related projects
+
+- [Cardiac Ultrasound Segmentation](https://github.com/kedharkota/-Heart-Murmur-)
+- [Healthcare Recommendation Research Prototype](https://github.com/kedharkota/Healthcare-Recommendation-System)
 
 ---
 
