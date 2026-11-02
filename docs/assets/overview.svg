@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title description">
+<title id="title">Sleep Stage Classification workflow</title>
+<desc id="description">Conceptual workflow: EDF + hypnograms to 30-second epochs to Autoencoder features to U-Net / LSTM stages. This is a project diagram, not an application screenshot.</desc>
+<rect width="1280" height="480" rx="20" fill="#0d1727"/>
+<path d="M48 44h70" stroke="#4ee0c2" stroke-width="5"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="48" y="79" font-size="15" fill="#6fe5d0" font-weight="600">BIOSIGNAL ANALYSIS</text>
+<text x="48" y="139" font-size="42" fill="#f3f7fc" font-weight="700">Sleep Stage Classification</text>
+<text x="48" y="228" font-size="20" fill="#a9b9cd" font-weight="400">Memory-aware polysomnography processing with an autoencoder and U-Net/LSTM classifier.</text>
+<rect x="48" y="293" width="266" height="107" rx="10" fill="#17263b" stroke="#2b4660"/>
+<text x="66" y="321" font-size="14" fill="#6fe5d0" font-weight="600">01</text>
+<text x="66" y="352" font-size="19" fill="#f3f7fc" font-weight="600">EDF + hypnograms</text>
+<path d="M324 347h20m-6-6 6 6-6 6" fill="none" stroke="#4ee0c2" stroke-width="2"/>
+<rect x="354" y="293" width="266" height="107" rx="10" fill="#17263b" stroke="#2b4660"/>
+<text x="372" y="321" font-size="14" fill="#6fe5d0" font-weight="600">02</text>
+<text x="372" y="352" font-size="19" fill="#f3f7fc" font-weight="600">30-second epochs</text>
+<path d="M630 347h20m-6-6 6 6-6 6" fill="none" stroke="#4ee0c2" stroke-width="2"/>
+<rect x="660" y="293" width="266" height="107" rx="10" fill="#17263b" stroke="#2b4660"/>
+<text x="678" y="321" font-size="14" fill="#6fe5d0" font-weight="600">03</text>
+<text x="678" y="352" font-size="19" fill="#f3f7fc" font-weight="600">Autoencoder features</text>
+<path d="M936 347h20m-6-6 6 6-6 6" fill="none" stroke="#4ee0c2" stroke-width="2"/>
+<rect x="966" y="293" width="266" height="107" rx="10" fill="#17263b" stroke="#2b4660"/>
+<text x="984" y="321" font-size="14" fill="#6fe5d0" font-weight="600">04</text>
+<text x="984" y="352" font-size="19" fill="#f3f7fc" font-weight="600">U-Net / LSTM stages</text>
+<text x="48" y="448" font-size="13" fill="#8297ae" font-weight="600">KEDHARKOTA / PROJECT WORKFLOW</text>
+</g></svg>
